@@ -1,0 +1,303 @@
+@import 'https://fonts.googleapis.com/css?family=Dancing+Script|Muli|Raleway:300,400,700';
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  background-color:#ffffff;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  text-align: center;
+}
+
+h1, .h1 {
+  font-size: 65px;
+}
+
+section {
+  margin: 50px auto;
+}
+
+/* Header  CSS */
+
+header#home {
+  display: block;
+  background-color: #;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 5px;
+}
+
+hr {
+  border-top: 2px dashed #98CA51;
+  width: 25%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.submit-slide {
+  text-align: center;
+  position: relative;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+  border: 2px solid transparent;
+  width: 100%;
+  line-height: 30px;
+  background-color: #98CA51;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+#social-icon i {
+  color: #98CA51;
+}
+
+
+.navbar-default {
+  background: rgba(255,255,255,.1);
+  border: none;
+}
+
+.navbar-nav {
+  margin-top: 17px;
+  font-size: 18px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #777;
+  font-family: 'Muli', sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+.nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-nav>li>a:active {
+  color: #98CA51;
+}
+/* end Header CSS */
+
+.section-slider,  .section-banner {
+  margin: 0;
+}
+
+.pages-banner img{
+  max-height: 200px;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-caption h1 {
+  position: absolute;
+  top: 33%;
+  left: 0px;
+  width: 100%;
+  z-index: 3;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.about-us {
+  display: block;
+  background-image:url('../img/aboutus-bg.jpg');
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 50px 0 70px 0;
+  position: relative;
+}
+
+.about-us .text-box {
+  background-color: rgba(255,255,255,.8);
+  padding: 60px;
+  text-align: center;
+}
+
+.about-us .text-box a {
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Muli';
+  font-weight: 300;
+  font-size: 14px;
+  color: white;
+  margin-top: 30px;
+  padding: 12px 20px;
+  background-color: #98CA51;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 4px;
+  text-shadow:none;
+}
+
+.empty {
+  border: 5px solid #fff;
+}
+
+.menutext h3, .menutext p {
+  text-align: left;
+}
+
+.price {
+  color: #98CA51;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.img img {
+  border-radius: 15px 50px;
+}
+
+/* reviews CSS */
+.reviews-section-home {
+  text-align: center;
+}
+
+
+.reviews-text {
+  width:50%;
+  margin: 0 auto;
+}
+
+#reviews .btn-default {
+  text-transform: uppercase;
+  background-color: #2c3643;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+
+#reviews .btn-default:hover {
+  background-color: #ffc83f;
+  color: #fff;
+  border: none;
+}
+
+/* End reviews CSS */
+
+
+.form-control{
+  border-radius: 0;
+  border-color: #2c3643;
+}
+
+textarea.form-control {
+  height: 82px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+  border-radius: 0;
+  padding: 10px 26px;
+}
+
+.price-color {
+  color:#ffc83f;
+  float: right;
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+}
+
+.food-menu-item {
+  margin: 15px 0;
+}
+
+.menu-h3 {
+  margin-top: 5px;
+}
+
+.menu-container {
+  background-color: rgba(255,255,255,.8);
+}
+
+
+/* Footer CSS */
+#footer {
+  background-color:#98CA51;
+  z-index: 999;
+  text-align: center;
+}
+
+.footer-above {
+  padding: 30px 0;
+}
+
+.footer-above {
+}
+
+.footer-above p {
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  color: #a1a1a1;
+}
+
+.footer-col p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.footer-below {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer-below p {
+  text-transform:uppercase;
+  font-size:12px;
+  color: #fff;
+  font-family: 'Muli', sans-serif;
+}
+
+.footer-below a {
+    color: #f1f1f1;
+}
+/* End Footer CSS */
+
+
+.bubble
+{
+  position: relative;
+  display: inline-block;
+  padding: 20px;
+  border: 1px dashed #000;
+  font-style: italic;
+}
+
+
+.customer img {
+  margin-top: 5px;
+}
+
+.customer h4 {
+  position: absolute;
+  top: 78%;
+  left: 28%;
+  font-style: italic;
+  text-align: left;
+}
+
+.customer span {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.reviews h3 {
+  color: #519a48;
+  margin: 60px 0 30px 0;
+}

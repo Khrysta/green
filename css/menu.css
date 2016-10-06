@@ -1,0 +1,146 @@
+.menu-view {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding: 50px 0;
+	overflow: hidden;
+}
+.menu-view .menu-tab {
+	padding: 50px 0 0 0;
+}
+.menu-view .menu-tab .tab-menu {
+	display: block;
+	text-align: center;
+	padding-bottom: 90px;
+}
+.menu-view .menu-tab .tab-menu ul {
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+}
+.menu-view .menu-tab .tab-menu ul li {
+	list-style: none;
+	float: left;
+	padding: 0 10px;
+}
+.menu-view .menu-tab .tab-menu ul li a {
+	border: solid 1px #cccccc;
+	display: block;
+	padding: 12px 20px 12px 65px;
+	line-height: 28px;
+	font-size: 14px;
+	color: #333333;
+	text-transform: uppercase;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: 21px 12px;
+	position: relative;
+	-moz-transition: all 0.5s ease-in-out 0s;
+	-ms-transition: all 0.5s ease-in-out 0s;
+	-o-transition: all 0.5s ease-in-out 0s;
+	-webkit-transition: all 0.5s ease-in-out 0s;
+	transition: all 0.5s ease-in-out 0s;
+}
+.menu-view .menu-tab .tab-menu ul li.active a:after {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	border-left: 13px solid transparent;
+	border-right: 13px solid transparent;
+	content: "";
+	margin-left: -13px;
+}
+.menu-view .menu-tab .tab-menu ul li.active a {
+	color: #98CA51;
+	background-position: 21px -169px !important;
+}
+.menu-view .menu-tab .tab-menu ul li a:hover {
+	color: #98CA51;
+	background-position: 21px -169px !important;
+}
+.menu-view .menu-tab .tab-menu ul li a.breakfast_li {
+	background-image: url(../images/breakfast-icon.png)
+}
+.menu-view .menu-tab .tab-menu ul li a.lunch_li {
+	background-image: url(../images/lunch-icon.png)
+}
+.menu-view .menu-tab .tab-menu ul li a.dinner_li {
+	background-image: url(../images/dinner-icon.png)
+}
+.menu-view .tab-content {
+	display: none;
+}
+.menu-view .tab-content.breakfast {
+	display: block;
+}
+.menu-view .tab-content .menu-box {
+	width: 100%;
+	margin-bottom: 30px;
+	border: solid 1px #ccc;
+	border-radius: 10px;
+	padding: 12px 10px 12px 100px; /*overflow:hidden;*/
+	min-height: 90px;
+	background: #fff;
+	position: relative;
+}
+.menu-view .tab-content .menu-box .img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 10px 0 0 10px;
+	width: 90px;
+}
+.menu-view .tab-content .menu-box .img img {
+	border-radius: 10px 0 0 10px;
+}
+.menu-view .tab-content .menu-box .img .new-label {
+	color: #fff;
+	text-transform: uppercase;
+	background: #0c9913;
+	width: 40px;
+	text-align: center;
+	line-height: 18px;
+	position: absolute;
+	top: -10px;
+	left: 25px;
+}
+.menu-view .tab-content .menu-box .name {
+	display: block;
+	position: relative;
+	font-weight: 600;
+	line-height: 20px;
+	color: #000000;
+	position: relative;
+}
+.menu-view .tab-content .menu-box .name:after {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background: url(../images/dote-img.png) repeat-x top left;
+	content: "";
+}
+.menu-view .tab-content .menu-box .name span {
+	font-size: 14px;
+	background: #fff;
+	padding: 0 5px 0 0;
+	position: relative;
+	z-index: 2;
+}
+.menu-view .tab-content .menu-box .name .price {
+	float: right;
+	background: #fff;
+	font-size: 16px;
+	padding: 0 0 0 5px;
+	position: relative;
+	z-index: 2;
+}
+.menu-view .tab-content .menu-box p {
+	line-height: 18px;
+	font-size: 13px;
+	margin: 10px 0 0 0;
+	font-weight: normal;
+	max-height: 35px;
+	overflow: hidden;
+}

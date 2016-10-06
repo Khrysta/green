@@ -1,0 +1,77 @@
+.carousel{
+	width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+ }
+
+ @media screen and (min-width: 1500px){
+
+	 .item {
+	    height: 867px;
+	 }
+
+     .pages-banner .item {
+        height: 200px !important;
+     }
+
+ }
+
+ .item {
+     transform-style: preserve-3d;
+ }
+
+ .carousel-caption {
+ 	position: absolute;
+    top: 58%;
+    z-index: 3;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+ }
+
+ .carousel-caption h2 {
+ 	font-family: 'Muli', serif;
+ 	font-size: 52px;
+    display: table;
+    text-align: center;
+    overflow: hidden;
+    font-weight: 300;
+    color: white;
+    padding: 25px 80px;
+    background-color: rgba(0,0,0,.8);
+    text-transform: uppercase;
+    overflow: hidden;
+    margin: 0 auto;
+ }
+
+ .carousel-caption p {
+ 	font-family: 'Raleway', serif;
+ 	font-size: 24px;
+ 	color: #98CA51;
+    text-shadow:none;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: table;
+    font-size: 24px;
+    margin: 1px auto !important;
+    padding: 20px 50px;
+ }
+
+ .carousel-caption a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Muli';
+    font-weight: 300;
+    font-size: 14px;
+    color: white;
+    padding: 12px 20px;
+    background-color: #98CA51;
+    margin-top: 200px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    text-shadow:none;
+ }
